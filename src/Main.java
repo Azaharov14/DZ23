@@ -14,9 +14,8 @@ public class Main {
         System.out.println("Задача 2");
 
         String fullNameS = ("Ivanov Ivan Ivanovich");
-        String fullNamesTrue = fullNameS.replace("Ivanov Ivan Ivanovich",
-                "IVANOV IVAN IVANOVICH");
-        System.out.println(fullNamesTrue);
+        String fullNameUpper = fullName.toUpperCase();
+        System.out.println(fullNameUpper);
 
         System.out.println("Задача 3");
 
